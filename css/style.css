@@ -1,0 +1,105 @@
+
+@font-face {
+  font-family: "Hero Light";
+  src: local(Hero-Light), url(fonts/Hero-Light.otf), format('opentype');
+  font-family: "Solo";
+  src: local(Solo), url(fonts/Solo.ttf), format('truetype');
+  font-family: "WhiskeyBite-duo";
+  src: local(WhiskeyBite-Duo), url(fonts/WhiskeyBite-Duo.otf), format('opentype');
+  font-family: "Kagura";
+  src: local(Kagura), url(fonts/Kagura.ttf), format('truetype');
+  font-family: "Spring Holiday";
+  src: local(Spring Holiday), url(fonts/Spring Holiday.ttf), format('truetype');
+  font-family: "BLANCH_CONDENSED_LIGHT";
+  src: local(BLANCH_CONDENSED_LIGHT), url(fonts/BLANCH_CONDENSED_LIGHT.otf), format('truetype');
+}
+
+@font-face {
+    font-family: 'blanchcondensed_inline';
+    src: url('fonts/blanch_condensed_inline-webfont.woff2') format('woff2'),
+         url('fonts/blanch_condensed_inline-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'blanchcaps';
+    src: url('fonts/blanch_caps-webfont.woff2') format('woff2'),
+         url('fonts/blanch_caps-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'blanchcaps_inline';
+    src: url('fonts/blanch_caps_inline-webfont.woff2') format('woff2'),
+         url('fonts/blanch_caps_inline-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'blanchcaps_light';
+    src: url('fonts/blanch_caps_light-webfont.woff2') format('woff2'),
+         url('fonts/blanch_caps_light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'blanchcondensed';
+    src: url('fonts/blanch_condensed-webfont.woff2') format('woff2'),
+         url('fonts/blanch_condensed-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'blanchcondensed_light';
+    src: url('fonts/blanch_condensed_light-webfont.woff2') format('woff2'),
+         url('fonts/blanch_condensed_light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+#site{
+  width:90%;
+  height:auto;
+  margin-top:0;
+  margin-left:auto;
+  margin-bottom:0;
+  margin-right:auto;
+  background-color:#;
+}
+#header{
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width:100%;
+  height:30%;
+  float:left;
+  background-color:#38387a;
+}
+#conteudo{
+  width:100%;
+  height:500px;
+} 
+#conteudo-left{
+  width:20%;
+  height:100%;
+  float:left;
+}
+#conteudo-right{
+  width:80%;
+  height:100%;
+  float:left;
+}
+
+.titulo{
+
+  
+  font-family: "blanchcondensed";
+  font-size: 80px;
+  color: #ee3f3f;
+}
